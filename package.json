@@ -1,6 +1,6 @@
 {
   "name": "saintjs-score",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SoongSil UniverSity U-saint Score Crawling",
   "main": "index.js",
   "scripts": {

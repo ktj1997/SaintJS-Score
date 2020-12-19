@@ -37,7 +37,7 @@ const crawler = async (id,password) => {
     rowRet.forEach((element) => {ret.push(new Row(element));});
     return ret;
   }catch(e){
-    throw e;
+    console.error(e);
   }finally{
       browser.close();
   }      

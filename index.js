@@ -15,9 +15,9 @@ const crawler = async (id,password) => {
     );
 
     const login = await checkLogin(page,id,password);
-    if(!login){
+    if(!login)
       throw "Invalid Id Or Password";
-    } 
+
     await page.goto("https://ecc.ssu.ac.kr/sap/bc/webdynpro/SAP/ZCMB3W0017",{waitUntil : "networkidle0"});
     await page.keyboard.press("Escape");
     
@@ -39,7 +39,6 @@ const crawler = async (id,password) => {
   }catch(e){
     throw e;
   }finally{
-      page.close()
       browser.close();
   }      
 };
@@ -58,7 +57,7 @@ const checkLogin = async (page,id,password) =>{
       await page.on(("dialog"),dialog =>{
           dialog.accept();
       })
-      await page.waitForTimeout(2000);
+      await page.waitForTimeout(1500);
       const success = await page.evaluate(() =>{
           const navBar = document.querySelector(".mhList");
           if(navBar)
@@ -67,7 +66,7 @@ const checkLogin = async (page,id,password) =>{
       })
       return success;
   }catch(e){
-      console.error(e);
+      throw e;
   }
 };
 module.exports = crawler;

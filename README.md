@@ -1,6 +1,5 @@
 # SaintJS-Score
-========================
-##saint.ssu.ac.kr(유세인트)에서 자신의 성적 크롤링
+## saint.ssu.ac.kr(유세인트)에서 자신의 성적 크롤링
 
 ### Install
 ````

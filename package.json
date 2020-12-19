@@ -1,6 +1,6 @@
 {
   "name": "saintjs-score",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SoongSil UniverSity U-saint Score Crawling",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "email": "rlaxowns7916@gmail.com"
   },
   "author": "rlaxowns7916",
+  "keywords": ["usaint","ssu","crawling","score"],
   "license": "MIT",
   "dependencies": {
     "puppeteer": "^5.5.0"

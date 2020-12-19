@@ -11,7 +11,7 @@ npm install saintjs-score
 const crawling = require("saintjs-score");
 
 const func = async () =>{
-    const ret =await crawl("학번","비밀번호");
+    const ret =await crawling("학번","비밀번호");
     console.log(ret);
 }
 func();

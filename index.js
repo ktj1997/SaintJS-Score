@@ -7,7 +7,7 @@ const crawling = require("./func/crawling");
  * @param {*} password
  */
 const crawler = async (id, password) => {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   let ret = null;
   let firstFlag = true;

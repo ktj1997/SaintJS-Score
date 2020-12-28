@@ -1,13 +1,22 @@
 # SaintJS-Score
+
 ## saint.ssu.ac.kr(유세인트)에서 자신의 성적 크롤링
 
+### Discription
+
+```
+  가장 최근에 수강한 학기의 성적을 크롤링
+```
+
 ### Install
-````
-npm install saintjs-score 
-````
+
+```
+npm install saintjs-score
+```
 
 ### Usage
-`````
+
+```
 const crawling = require("saintjs-score");
 
 const func = async () =>{
@@ -15,13 +24,11 @@ const func = async () =>{
     console.log(ret);
 }
 func();
-`````
-
+```
 
 ### ReturnValue
 
-
-````
+```
  {
     year: '2020학년도',
     semester: '2 학기',
@@ -95,5 +102,4 @@ func();
     profName: '최형광'
   }
 ]
-````
-
+```

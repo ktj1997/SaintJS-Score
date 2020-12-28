@@ -1,17 +1,22 @@
 {
   "name": "saintjs-score",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "SoongSil UniverSity U-saint Score Crawling",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/ktj1997/u-saintScoreCrawling",
-  "bugs":{
+  "bugs": {
     "email": "rlaxowns7916@gmail.com"
   },
   "author": "rlaxowns7916",
-  "keywords": ["usaint","ssu","crawling","score"],
+  "keywords": [
+    "usaint",
+    "ssu",
+    "crawling",
+    "score"
+  ],
   "license": "MIT",
   "dependencies": {
     "puppeteer": "^5.5.0"

@@ -2,6 +2,9 @@
 
 ## saint.ssu.ac.kr(유세인트)에서 자신의 성적 크롤링
 
+### npm
+https://www.npmjs.com/package/saintjs-score
+
 ### Discription
 
 ```
